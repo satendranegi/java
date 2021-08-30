@@ -23,13 +23,9 @@ class StringParser{
 class MyPrinter{
     public void print(String str,Parser parser){
         str = parser.parse(str);
-
         System.out.println(str);
     }
 }
-
-
-
 
 public class MethodReferenceDemo {
 
